@@ -1,0 +1,17 @@
+Functions to calculate the bitwise AND, bitwise OR and bitwise XOR of two numbers.
+
+function bitwiseAND(n1, n2) {
+	answer = n1 & n2;
+	return (answer)
+	
+}
+
+function bitwiseOR(n1, n2) {
+	answer = n1 | n2;
+	return (answer)
+}
+
+function bitwiseXOR(n1, n2) {
+	answer = n1 ^ n2;
+	return (answer)
+}
