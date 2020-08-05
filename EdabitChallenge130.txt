@@ -1,0 +1,7 @@
+//A factor chain is an array where each previous element is a factor of the next consecutive element. The following is a factor chain:
+
+const factorChain = arr => {
+	return arr.reduce((bool, element, i) => {
+		return arr[i]%arr[i-1]===0;
+	})
+}
